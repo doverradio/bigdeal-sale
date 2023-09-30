@@ -1,0 +1,2 @@
+# bigdeal-sale
+Link shortener
