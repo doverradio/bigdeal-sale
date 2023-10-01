@@ -26,12 +26,12 @@ function MainPage() {
         <p class="lead">
           <a class="btn btn-primary btn-lg" href="#" role="button">Sign up</a>
         </p>
-            {products.map(product => (
+            {/* {products.map(product => (
               <div key={product.shortURL}>
                 <img src={product.image} alt={product.actualURL} />
                 <p>{product.price}</p>
               </div>
-            ))}
+            ))} */}
           </div>
       </div>
     </>
