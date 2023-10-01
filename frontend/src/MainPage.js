@@ -18,12 +18,10 @@ function MainPage() {
       <NavbarMain />
       <div className="container-fluid">
           <div className='jumbotron'>
-            
+        <p class="lead">Whats the deal?</p>
         <h1 class="display-4">BIGDEAL.SALE</h1>
-        <p class="lead">Unlock the Best Deals with Every Click!</p>
         <hr class="my-4"/>
-        <p>Welcome to BigDeal.Sale, where top-notch products meet unbeatable offers! Inspired by our dynamic range of videos on social media, 
-          we curate the most tempting deals just for you. Explore, indulge, and grab the best before anyone else does!</p>
+        <p>At BigDeal.Sale, top-notch products meet unbeatable sales! Explore, indulge, and grab the best before anyone else does!</p>
         <p>Ready to dive into a world of <strong>exclusive savings</strong>? Sign up now and never miss a deal!</p>
         <p class="lead">
           <a class="btn btn-primary btn-lg" href="#" role="button">Sign up</a>
