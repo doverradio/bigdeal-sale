@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 require("dotenv").config();
-const productRoutes = require('./routes/productRoutes');
 
 const app = express();
 app.use(bodyParser.json());
@@ -14,7 +13,9 @@ mongoose.connect(process.env.DATABASE, {
 })
 .then(() => console.log("DB Connected"));
 
-app.use(productRoutes);
+const productRoutes = require('./routes/productRoutes');
+
+app.use('/api', productRoutes);
 
 const PORT = process.env.PORT || 8025;
 app.listen(PORT, () => {
