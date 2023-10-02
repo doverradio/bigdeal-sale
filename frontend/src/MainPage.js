@@ -1,17 +1,18 @@
-import { useState, useEffect } from 'react';
-import { fetchProduct } from './api';
+import { useState } from 'react';
+// import { useState, useEffect } from 'react';
+// import { fetchProduct } from './api';
 import NavbarMain from './NavbarMain';
 
 function MainPage() {
   const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const data = await fetchProduct();
-      setProducts(data);
-    };
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const data = await fetchProduct();
+  //     setProducts(data);
+  //   };
+  //   fetchData();
+  // }, []);
 
   return (
     <>
