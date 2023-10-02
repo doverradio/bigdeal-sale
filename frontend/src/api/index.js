@@ -11,6 +11,6 @@ export const fetchProduct = async (shortURL) => {
       },
       body: JSON.stringify(data),
     });
-    return await response.json();
+    return await response.text();
   };
   
