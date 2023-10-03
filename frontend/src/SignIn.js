@@ -19,7 +19,7 @@ const SignIn = () =>
             <div className="signin-container d-flex justify-content-center">
                 <form onSubmit={handleSubmit}>
                     <div className="form-group m-1 p-1">
-                        <label htmlFor="email">Email:&nbsp;</label>
+                        <label htmlFor="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input 
                             type="email" 
                             id="email" 
@@ -31,7 +31,7 @@ const SignIn = () =>
                     </div>
                     <br />
                     <div className="form-group m-1 p-1">
-                        <label htmlFor="password">Password:&nbsp;</label>
+                        <label htmlFor="password">Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input 
                             type="password" 
                             id="password" 
@@ -40,7 +40,7 @@ const SignIn = () =>
                             required
                         />
                     </div>
-                    <button className="btn btn-primary btn-sm" type="submit">Sign In</button>
+                    <button className="btn btn-primary btn-sm m-1" type="submit">Sign In</button>
                 </form>
             </div>
         </>
