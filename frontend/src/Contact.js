@@ -29,7 +29,7 @@ const Contact = () =>
     return(
         <>
             <NavbarMain />
-            <div style={{ maxWidth: "600px", margin: "40px auto" }}>
+            <div className="main-content" style={{ maxWidth: "600px", margin: "40px auto" }}>
                 <h1>Contact Us</h1>
 
                 <form onSubmit={handleSubmit}>

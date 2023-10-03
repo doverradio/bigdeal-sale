@@ -4,7 +4,7 @@ const MainPageBody = () =>
 {
     return(
         <>
-            <div className="container-fluid">
+            <div className="container-fluid main-content">
                 <div className='jumbotron'>
             <p class="lead">Whats the deal?</p>
             <h1 class="display-4">BIGDEAL.SALE</h1>

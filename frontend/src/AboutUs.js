@@ -1,12 +1,13 @@
 import React from "react";
 import NavbarMain from "./NavbarMain";
+import Footer from "./Footer";
 
 const AboutUs = () =>
 {
     return(
         <>
             <NavbarMain />
-            <div className="container-fluid">
+            <div className="container-fluid main-content">
                 <div className="row">
                     <div className="col-12">
                         <h2 className="m-1 p-1">Our Story</h2>
@@ -56,6 +57,7 @@ const AboutUs = () =>
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

@@ -6,6 +6,7 @@ import SignIn from "./SignIn";
 import SignUp from "./Signup";
 import TermsOfService from "./TermsOfService";
 import Contact from "./Contact";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 const Routes = () => {
     return (
@@ -19,6 +20,7 @@ const Routes = () => {
                 <Route path="/signup" exact component={SignUp} />
                 <Route path="/terms" exact component={TermsOfService} />
                 <Route path="/contact" exact component={Contact} />
+                <Route path="/privacy" exact component={PrivacyPolicy} />
                 
             </Switch>
         </BrowserRouter>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavbarMain from "./NavbarMain";
+import Footer from "./Footer";
 
 const SignIn = () =>
 {
@@ -16,7 +17,7 @@ const SignIn = () =>
         <>
             <NavbarMain />
             <h2 className="m-1 p-1">Sign In</h2>
-            <div className="signin-container d-flex justify-content-center">
+            <div className="signin-container d-flex justify-content-center main-content">
                 <form onSubmit={handleSubmit}>
                     <div className="form-group m-1 p-1">
                         <label htmlFor="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
@@ -43,6 +44,7 @@ const SignIn = () =>
                     <button className="btn btn-primary btn-sm m-1" type="submit">Sign In</button>
                 </form>
             </div>
+            <Footer />
         </>
     )
 }
