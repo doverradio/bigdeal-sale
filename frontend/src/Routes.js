@@ -4,6 +4,8 @@ import MainPage from "./MainPage";
 import AboutUs from "./AboutUs";
 import SignIn from "./SignIn";
 import SignUp from "./Signup";
+import TermsOfService from "./TermsOfService";
+import Contact from "./Contact";
 
 const Routes = () => {
     return (
@@ -15,6 +17,8 @@ const Routes = () => {
                 <Route path="/about" exact component={AboutUs} />
                 <Route path="/signin" exact component={SignIn} />
                 <Route path="/signup" exact component={SignUp} />
+                <Route path="/terms" exact component={TermsOfService} />
+                <Route path="/contact" exact component={Contact} />
                 
             </Switch>
         </BrowserRouter>

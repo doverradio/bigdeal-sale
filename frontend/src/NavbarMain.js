@@ -30,9 +30,18 @@ const NavbarMain = () => {
                                 Sign In
                             </NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink to="/contact" className="nav-link" activeClassName="active">
+                                Contact
+                            </NavLink>
+                        </li>
                         {/* Rest of your items... */}
                     </ul>
                     {/* Rest of your navbar content... */}
+                    <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </div>
             </nav>
         </>
