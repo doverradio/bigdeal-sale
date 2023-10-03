@@ -1,9 +1,11 @@
 import React from "react";
+import NavbarMain from "./NavbarMain";
 
 const AboutUs = () =>
 {
     return(
         <>
+            <NavbarMain />
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12">
