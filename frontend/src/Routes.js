@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import MainPage from "./MainPage";
 import AboutUs from "./AboutUs";
+import SignIn from "./SignIn";
+import SignUp from "./Signup";
 
 const Routes = () => {
     return (
@@ -11,6 +13,8 @@ const Routes = () => {
                 {/* Public */}
                 <Route path="/" exact component={MainPage} />
                 <Route path="/about" exact component={AboutUs} />
+                <Route path="/signin" exact component={SignIn} />
+                <Route path="/signup" exact component={SignUp} />
                 
             </Switch>
         </BrowserRouter>
