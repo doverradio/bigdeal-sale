@@ -116,11 +116,11 @@ const userSchema = new mongoose.Schema(
             type: String,
             default: ""
         },
-        ebayUsername: {
+        tiktokUsername: {
             type: String,
             default: ""
         },
-        ebayPassword: {
+        tiktokPassword: {
             type: String,
             default: ""
         },
@@ -200,11 +200,11 @@ const userSchema = new mongoose.Schema(
             type: Date,
             default: ""
         },
-        ebaySold: {
+        tiktokSold: {
             type: Array,
             default: []
         },
-        ebayListing: {
+        tiktokListing: {
             type: Array,
             default: []
         },
@@ -307,31 +307,27 @@ const userSchema = new mongoose.Schema(
         pendingPinterestOAuthUrlExpiresTime: {
             type: Date
         },
-        pendingEbayOAuth: {
+        pendingTikTokOAuth: {
             type: Boolean,
             default: false
         },
-        pendingEbayOAuthUrl: {
+        pendingTikTokOAuthUrl: {
             type: String,
             default: ""
         },
-        pendingEbayOAuthUrlTime: {
+        pendingTikTokOAuthUrlTime: {
             type: Date
         },
-        pendingEbayOAuthUrlExpiresTime: {
+        pendingTikTokOAuthUrlExpiresTime: {
             type: Date
         },
-        sellerRegistrationCompletedEbay: {
+        sellerRegistrationCompletedTikTok: {
             type: Boolean,
             default: false
         },
         challengeResponse: {
             type: String,
             default: ""
-        },
-        ebayPromotionItemLimit: {
-            type: Number,
-            default: null
         },
         promotional_limit_used: {
             type: Number,
@@ -345,10 +341,6 @@ const userSchema = new mongoose.Schema(
             type: Number,
             default: null
         },
-        ebayitem_hardlimit: {
-            type: Number,
-            default: 0
-        },
         ideal_item_price: {
             type: Number,
             default: null
@@ -360,22 +352,6 @@ const userSchema = new mongoose.Schema(
         automaticallyChargeCardOnSales: {
             type: Boolean,
             default: false
-        },
-        braintreeVault_id: {
-            type: String,
-            default: ""
-        },
-        braintreeCustomerId: {
-            type: String,
-            default: ""
-        },
-        zellememberemail: {
-            type: String,
-            default: ""
-        },
-        zellememberphone: {
-            type: String,
-            default: ""
         },
         stripe_account_id: {
             type: String,
