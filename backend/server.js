@@ -13,6 +13,7 @@ mongoose.connect(process.env.DATABASE, {
 })
 .then(() => console.log("DB Connected"));
 
+const authRoutes = require("./routes/auth");
 const productRoutes = require('./routes/productRoutes');
 
 app.use('/api', productRoutes);
