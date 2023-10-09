@@ -15,8 +15,10 @@ mongoose.connect(process.env.DATABASE, {
 
 const authRoutes = require("./routes/auth");
 const productRoutes = require('./routes/productRoutes');
+const tikTokRoutes = require('./routes/tiktok');
 
 app.use('/api', productRoutes);
+app.use('/api', tikTokRoutes);
 
 const PORT = process.env.PORT || 8025;
 app.listen(PORT, () => {
