@@ -2,7 +2,7 @@
 const log = console.log;
 
 
-const getTikTokCode = async ( req, res ) =>
+exports.getTikTokCode = async ( req, res ) =>
 {
     try {
         let code = req.query.code //('code')
