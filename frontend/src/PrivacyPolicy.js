@@ -23,7 +23,6 @@ const PrivacyPolicy = () =>
                 <ul>
                     <li><strong>Contact Data.</strong> Includes email address, telephone number, and physical address.</li>
                     <li><strong>Technical Data.</strong> Includes internet protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system, and platform, and other technology on the devices you use to access this website.</li>
-                    <li>... (add other data types as required)</li>
                 </ul>
                 
                 <h2>How We Use Your Personal Data</h2>
