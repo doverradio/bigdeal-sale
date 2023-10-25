@@ -47,7 +47,7 @@ function UrlShortenerForm() {
                 </div>
             </form>
 
-            {shortenedUrl && <p>Shortened URL: <a href={shortenedUrl} target='_blank' rel="noreferrer">{shortenedUrl}</a></p>}
+            {shortenedUrl && <p>Shortened URL: <a href={`https://${shortenedUrl}`} target='_blank' rel="noreferrer">{shortenedUrl}</a></p>}
         </div>
     );
 }
