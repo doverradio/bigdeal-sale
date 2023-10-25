@@ -17,10 +17,12 @@ const authRoutes = require("./routes/auth");
 const productRoutes = require('./routes/productRoutes');
 const tikTokRoutes = require('./routes/tiktok');
 const shortenRoutes = require('./routes/shorten');
+const redirectRoutes = require('./routes/redirect');
 
 app.use('/api', productRoutes);
 app.use('/api', tikTokRoutes);
 app.use('/api', shortenRoutes);
+app.use(redirectRoutes);
 
 const PORT = process.env.PORT || 8025;
 app.listen(PORT, () => {
