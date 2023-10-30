@@ -23,8 +23,8 @@ const statsRoutes = require('./routes/stats');
 app.use('/api', productRoutes);
 app.use('/api', tikTokRoutes);
 app.use('/api', shortenRoutes);
+app.use('/api', statsRoutes);
 app.use(redirectRoutes);
-app.use(statsRoutes);
 
 const PORT = process.env.PORT || 8025;
 app.listen(PORT, () => {
