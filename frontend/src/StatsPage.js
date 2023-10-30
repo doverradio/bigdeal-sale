@@ -17,10 +17,22 @@ function StatsPage(props) {
     return (
         <div>
             {stats ? (
-                <div>
-                    <p><strong>Original URL:</strong> {stats.originalUrl}</p>
-                    <p><strong>Shortened URL:</strong> {stats.shortenedUrl}</p>
-                    <p><strong>Click Count:</strong> {stats.clicks}</p>
+                <div className="container m-3 p-3">
+                    <div className="row">
+                        <div className="col-12"> 
+                            <p className='m-1 p-1'><strong>Original URL:</strong> {stats.originalUrl}</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12"> 
+                            <p className='m-1 p-1'><strong>Shortened URL:</strong> {stats.shortenedUrl}</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12"> 
+                            <p className='m-1 p-1'><strong>Click Count:</strong> {stats.clicks}</p>
+                        </div>
+                    </div>
                 </div>
             ) : (
                 <p>Loading...</p>
