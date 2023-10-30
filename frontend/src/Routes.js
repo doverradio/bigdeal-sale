@@ -22,8 +22,7 @@ const Routes = () => {
                 <Route path="/terms" exact component={TermsOfService} />
                 <Route path="/contact" exact component={Contact} />
                 <Route path="/privacy" exact component={PrivacyPolicy} /> 
-                <Route path="/stats/:urlCode" component={StatsPage} />
-                
+                <Route path="/stats/:urlCode" component={StatsPage} />                
             </Switch>
         </BrowserRouter>
     );
