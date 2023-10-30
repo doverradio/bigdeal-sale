@@ -15,7 +15,7 @@ function StatsPage(props) {
     }, [props.match.params.urlCode]);
 
     return (
-        <div>
+        <div className='mt-3'>
             {stats ? (
                 <div className="container m-3 p-3">
                     <div className="row">
