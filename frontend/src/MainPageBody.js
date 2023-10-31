@@ -10,8 +10,7 @@ const MainPageBody = () =>
             <p class="lead">Whats the deal?</p>
             <h1 class="display-4">BIGDEAL.SALE</h1>
             <hr class="my-4"/>
-            <p>At BigDeal.Sale, top-notch products meet unbeatable sales! Explore, indulge, and grab the best before anyone else does!</p>
-            <p>Ready to dive into a world of <strong>exclusive savings</strong>? Sign up now and never miss a deal!</p>
+            <h3>Shorten URLs.</h3>
             <br />
             {/* <p class="lead">
                 <a class="btn btn-primary btn-lg" href="/signup" role="button">Sign up</a>
